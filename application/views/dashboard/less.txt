@@ -1,0 +1,135 @@
+<!-- Slideshow container -->
+<!-- <div class="slideshow-container"> -->
+
+  <!-- Full-width images with number and caption text 
+  <div class="mySlides fade">
+    <div class="numbertext">1/1</div>
+    <a href="promo/index_1.html"><img src="<?= base_url('assets/'); ?>img/img1.jpg" style="width:100%"></a>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">1/2</div>
+    <a href="promo/index_2.html"><img src="<?= base_url('assets/'); ?>img/img2.jpg" style="width:100%"></a>
+  </div> -->
+  <!-- 
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="img/img3.jpg" style="width:100%">
+    <div class="text">Caption Three</div>
+  </div> -->
+  <!-- Next and previous buttons -->
+  <!-- <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div> -->
+
+
+<!-- The dots/circles
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+</div>
+ -->
+ 
+ 
+     <!-- <div class="menu-card">
+      <a href="product/doublechoco.html" class="doublechoco" id="doublechoco">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/doublechoco.png" alt="doublechoco" class="menu-card-img" />
+        <h3 class="menu-card-title">Double Choco</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/nanas.html" class="nanas" id="nanas">
+        <img src="<?= base_url('assets/') ?>img/nanas.png" alt="nanas" class="menu-card-img" />
+        <h3 class="menu-card-title">Nanas</h3>
+      </a>
+    </div>
+
+    <div class="menu-card">
+      <a href="product/chocolate.html" class="chocoberry" id="chocoberry">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/chocoberry.png" alt="chocoberry" class="menu-card-img" />
+        <h3 class="menu-card-title">Choco Berry</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/chocomix.html" class="chocomix" id="chocomix">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/chocomix.png" alt="chocomix" class="menu-card-img" />
+      </a>
+      <h3 class="menu-card-title">Choco Mix</h3>
+    </div>
+    <div class="menu-card">
+      <a href="product/chocopandan.html" class="chocopandan" id="chocopandan">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/chocopandan.png" alt="chocopandan" class="menu-card-img" />
+        <h3 class="menu-card-title">Choco Pandan</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/lavapink.html" class="lavapink" id="lavapink">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/lavapink.png" alt="lavapink" class="menu-card-img" />
+        <h3 class="menu-card-title">Lava Pink</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/greenteacheese.html" class="greenteacheese" id="greenteacheese">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/greenteacheese.png" alt="greenteacheese" class="menu-card-img" />
+        <h3 class="menu-card-title">Green Tea Cheese</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/cappuccino.html" class="cappuccino" id="cappuccino">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/cappuccino.png" alt="cappuccino" class="menu-card-img" />
+        <h3 class="menu-card-title">Cappucino</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/vanilla.html" class="vanilla" id="vanilla">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/vanilla.png" alt="vanilla" class="menu-card-img" />
+        <h3 class="menu-card-title">Vanilla</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/specialcheese.html" class="specialcheese" id="specialcheese">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/specialcheese.png" alt="specialcheese" class="menu-card-img" />
+        <h3 class="menu-card-title">Special Cheese</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/fresacheese.html" class="fresacheese" id="fresacheese">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/fresacheese.png" alt="fresacheese" class="menu-card-img" />
+        <h3 class="menu-card-title">Freesa Cheese</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/tiramisu.html" class="tiramasu" id="tiramasu">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/tiramisu.png" alt="tiramasu" class="menu-card-img" />
+        <h3 class="menu-card-title">Tiramisu</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/banana.hmtl" class="banana" id="banana">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/banana.png" alt="banana" class="menu-card-img" />
+        <h3 class="menu-card-title">Banana</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <a href="product/asado.html" class="asado" id="asado">
+        <img loading="lazy" src="<?= base_url('assets/') ?>img/asado.png" alt="asado" class="menu-card-img" />
+        <h3 class="menu-card-title">Asado</h3>
+      </a>
+    </div>
+    <div class="menu-card">
+      <img loading="lazy" src="<?= base_url('assets/') ?>img/box-1.png" alt="box-1" class="menu-card-img" />
+      <h3 class="menu-card-title">Coming Soon</h3>
+      </a>
+    </div> -->
+    
+    
+       <!-- <div class="activity-card">
+          <div class="activity-img">
+            <img loading="lazy" src="img/kegiatan1.png" alt="kegiatan1" />
+          </div>
+          <h3>Program Keliling Pasar Tahun 2023</h3>
+          <p>
+            Pada tahun 2022 Kami merubah brand Kami yang pada awalnya dikenal
+          </p>
+        </div>
+      </div> -->

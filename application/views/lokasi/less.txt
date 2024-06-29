@@ -1,0 +1,67 @@
+   <!-- 
+    <div class="location-outlet" id="location-outlet">
+      <h2>Outlet</h2>
+
+      <a href="https://maps.app.goo.gl/wQAzSo751JkkNyVQ7" class="outlet"
+        >Jl. Kalimantan No. 36, Gresik Kota Baru</a
+      >
+
+      <a href="https://maps.app.goo.gl/jULbExJkpFdHtFPZ8" class="outlet"
+        >Jl. Dr. Soetomo No. 20, Gresik</a
+      >
+
+      <a href="https://maps.app.goo.gl/n1FCC7p71u3sXbx9A" class="outlet"
+        >Jl. Panglima Sudirman No. 143, Gresik</a
+      >
+
+      <a href="https://maps.app.goo.gl/uUjcqAXMFqzarXVY7" class="outlet"
+        >Jl. Basuki Rahmat No. 134, Lamongan</a
+      >
+
+      <a href="https://maps.app.goo.gl/duEiFvXKDsDEAUFr7" class="outlet"
+        >Jl. Prajurit Kulon No. 25, Mojokerto</a
+      >
+
+      <a href="https://maps.app.goo.gl/Do9SEHNXiUMhCWZ66" class="outlet"
+        >Jl. Pondok Benowo Indah Blok A No. 2, Surabaya</a
+      >
+
+      <a href="https://maps.app.goo.gl/3hTMYvMssZhNnxEM9" class="outlet"
+        >Jl. Basuki Rachmad No. 169, Sidomulyo, Tuban</a
+      >
+
+      <a href="https://maps.app.goo.gl/gDs6tnXbEVPJuKLWA" class="outlet"
+        >Jl. MT. Haryono No 84, Dinoyo, Malang</a
+      >
+    </div>
+
+    <div class="location-booth" id="location-booth">
+      <h2>Booth</h2>
+
+      <a
+        href="https://maps.app.goo.gl/zbmcxbsYA1NvdHEs8"
+        alt="booth"
+        class="booth"
+        id="booth"
+        >Jl. Embong Kerang, Cerme, Gresik
+        <span> ( Halaman Depan Indomaret )</span></a
+      >
+
+      <a
+        href="https://maps.app.goo.gl/5zs1UpGvjEyYnKgj6"
+        alt="booth"
+        class="booth"
+        id="booth"
+        >Jl.Pondok Permata Suci No.70, Gresik
+        <span> ( Halaman Depan Indomaret )</span></a
+      >
+
+      <a
+        href="https://maps.app.goo.gl/BSayouRUMkp2p5iq9"
+        alt="booth"
+        class="booth"
+        id="booth"
+        >Perum Mayjend Soengkono Regency, Gresik
+        <span> ( Halaman Depan Alfamart )</span></a
+      >
+    </div> -->
