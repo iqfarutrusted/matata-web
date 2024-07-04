@@ -49,6 +49,9 @@ defined('BASEPATH') or exit('No direct script access allowed');
 | Examples:	my-controller/index	-> my_controller/index
 |		my-controller/my-method	-> my_controller/my_method
 */
-$route['katalog'] = 'katalog'; // For the catalog page (no ID)
-$route['katalog/produk/(:num)'] = 'katalog/produk/$1'; // For specific products (with ID)
+// ... other routes ...
+
+$route['katalog'] = 'katalog';  // For the main catalog page
+$route['katalog/(:num)'] = 'katalog/produk/$1'; // For individual product pages
+
 $route['translate_uri_dashes'] = FALSE;

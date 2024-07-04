@@ -1,4 +1,4 @@
-<?php if (!empty($product)) : ?>
+<?php if (isset($product)) : ?>
     <div class="container">
         <div class="image-container">
             <div class="big-image">
