@@ -1,4 +1,4 @@
-<?php if (isset($product)) : ?>
+<?php if (!empty($product)) : ?>
     <div class="container">
         <div class="image-container">
             <div class="big-image">
@@ -15,7 +15,6 @@
             <p id="deskripsi_produk"><?= $product->deskripsi_produk ?></p>
         </div>
     </div>
-
 <?php else : ?>
     <p>No product found.</p>
 <?php endif; ?>
