@@ -23,23 +23,18 @@ class Katalog extends CI_Controller
 
 	public function produk($id_produk = null)
 	{
-		if ($id_produk !== null) {  // Check if an ID is provided
+		if ($id_produk !== null) {
 			$data['product'] = $this->m_produk->get_data_by_id($id_produk);
 
-			if (!$data['product']) { // If no product found, show a 404
+			if (!$data['product']) {
 				show_404();
 			}
-
-			// Load your product view
-			$this->load->view('templates/header');
-			$this->load->view('katalog/produk', $data);
-			$this->load->view('templates/footer');
 		} else {
-			// No ID provided, show the product catalog
 			$data['produk'] = $this->m_produk->tampil_data()->result();
-			$this->load->view('templates/header');
-			$this->load->view('katalog/menu', $data);
-			$this->load->view('templates/footer');
 		}
+
+		$this->load->view('templates/header');
+		$this->load->view('katalog/produk', $data); // Pass the product data 
+		$this->load->view('templates/footer');
 	}
 }
