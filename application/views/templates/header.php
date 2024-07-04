@@ -17,11 +17,11 @@
   <nav>
     <div class="logo"><a href="<?= base_url('home') ?>"><img src="<?= base_url('assets/'); ?>img/logo-pt-1-2.png" alt="" /></a></div>
     <ul>
-      <li><a href="<?= base_url('katalog') ?>">KATALOG</a></li>
-      <li><a href="<?= base_url('lokasi') ?>">LOKASI</a></li>
-      <li><a href="<?= base_url('mitra') ?>">MITRA USAHA</a></li>
-      <li><a href="<?= base_url('karir') ?>">KARIR</a></li>
-      <li><a href="<?= base_url('profile') ?>">TENTANG KAMI</a></li>
+      <li><a href="<?= site_url('katalog') ?>">KATALOG</a></li>
+      <li><a href="<?= site_url('lokasi') ?>">LOKASI</a></li>
+      <li><a href="<?= site_url('mitra') ?>">MITRA USAHA</a></li>
+      <li><a href="<?= site_url('karir') ?>">KARIR</a></li>
+      <li><a href="<?= site_url('profile') ?>">TENTANG KAMI</a></li>
     </ul>
 
     <div class="menu-toggle">
