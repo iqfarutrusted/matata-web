@@ -38,7 +38,7 @@
 
     <?php foreach ($produk as $item) : ?>
       <div class="menu-card">
-        <a href="<?php echo site_url('katalog/' . $item->id_produk); ?>"> <img loading="lazy" id="image_pk" src="<?= base_url('assets/img/') . $item->image_pk ?>" class="menu-card-img" />
+        <a href="http://localhost/matatabrownieskukus-com-v2/katalog/<?php echo $item->id_produk; ?>"> <img loading="lazy" id="image_pk" src="<?= base_url('assets/img/') . $item->image_pk ?>" class="menu-card-img" />
           <h3 class="menu-card-title" id="nama_produk"><?= $item->nama_produk ?></h3>
         </a>
       </div>
