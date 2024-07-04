@@ -51,7 +51,10 @@ defined('BASEPATH') or exit('No direct script access allowed');
 */
 // ... other routes ...
 
-$route['katalog'] = 'katalog';  // For the main catalog page
-$route['katalog/(:num)'] = 'katalog/produk/$1'; // For individual product pages
+
+$route['default_controller'] = 'home';  // Sets your default controller (Home) for the root URL
+$route['404_override'] = ''; // Default 404 route
+$route['katalog'] = 'katalog';  // Route for the product catalog page
+$route['katalog/(:num)'] = 'katalog/produk/$1'; // Route for individual product pages
 
 $route['translate_uri_dashes'] = FALSE;
