@@ -21,10 +21,12 @@ class Katalog extends CI_Controller
 			if (!$data['product']) {
 				show_404();
 			}
+		} else {
+			$data['product'] = $this->m_produk->tampil_data()->result(); // Load all products when no ID is given
 		}
 
 		$this->load->view('templates/header');
-		$this->load->view('katalog/produk', $data); // Load product view always
+		$this->load->view('katalog/produk', $data);
 		$this->load->view('templates/footer');
 	}
 }
